@@ -1,0 +1,45 @@
+body{
+    font-size:34px;
+    font-family:monospace;
+    text-shadow: 3px 0px 0px rgb(80, 112, 255);
+    font-style:italic;
+    background-color:rgb(177, 212, 233);
+    color:aliceblue;
+    text-align:center;
+
+}
+h1{
+    color:blue;
+}
+    
+.sonic{
+    height:28vh;
+    }
+
+.knuckles{
+   display: none;
+}
+
+@media(max-width:1300px){
+    body{
+    background-color:rgb(255, 166, 159);
+    font-family:monospace;
+    text-shadow: 3px 0px 0px rgb(255, 80, 80);
+    font-style:italic;
+    color:aliceblue;
+    }
+h1{
+    color:red;
+
+}
+    .sonic{
+     display: none;
+   }
+
+   .knuckles{
+     display:inline;
+     height:30vh;
+   }
+   
+
+}
