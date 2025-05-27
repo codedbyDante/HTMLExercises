@@ -1,0 +1,57 @@
+p{
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color:#076669;
+}
+.deslize{
+    border: 10px dotted rgb(42, 120, 146);
+    background-color:rgb(114, 199, 199);
+    width:10%;
+    height:30%;
+    margin:auto;
+    margin-top:10%;
+    padding:10%;
+    position:relative;
+    animation: slide 2s infinite;
+}
+
+@keyframes slide {
+    from {top:0px;}
+    to{top:100px;}
+}
+
+img{
+    opacity:80%;
+    width:40%;
+    height:40%;
+    margin:30%;
+    padding:auto;
+
+}
+.car{
+    border: 10px dotted rgb(42, 120, 146);
+    background-color:rgb(114, 199, 199);
+    width:20%;
+    height:10%;
+    margin:auto;
+    margin-top:20%;
+    margin-bottom:20%;
+    padding:30px;
+    position:relative;
+    animation: pulse 2.9s infinite;
+}
+
+@keyframes pulse{
+    0%{
+        transform:scale(1);
+    }
+    50%{
+        transform:scale(1.1);
+    }
+    100%{
+        transform:scale(1);
+    }
+
+}
